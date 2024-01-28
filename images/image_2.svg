@@ -1,29 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279 279">
+<svg id="heart_img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279 279">
   <defs>
     <style>
+      #heart_img:hover #background{
+    fill: rgb(249, 242, 6);
+
+  }
+
+ #heart_img #heart #right {
+    transition: transform 0.5s ease-in-out;}
+
+    #heart_img #heart #left {
+    transition: transform 0.5s ease-in-out;}
+
+#heart_img:hover #heart #left {
+    fill: rgb(224, 0, 54);
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2);
+
+}
+#heart_img:hover #heart #right {
+    fill: rgb(224, 0, 54);
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2);
+
+}
+
+ #heart_img:hover #text .cls-1{
+        fill: rgb(201, 0, 48);
+        transition: transform 0.5s ease-in-out;
+      
+    }
+
       .cls-1 {
         font-family: ArialMT, Arial;
-        font-size: 41px;
+        font-size: 50px;
       }
 
       .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-1 {
         fill: #fff;
       }
 
       .cls-3 {
-        fill: #d11f44;
+        fill: #fff;
       }
 
-      .cls-3, .cls-2 {
+
+
+      .cls-3, .cls-4 {
         stroke-width: 0px;
       }
+
+      .cls-4 {
+        fill: #e5e5e5;
+      }
     </style>
+     <script>
+       console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#heart_img');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+
+    </script>
   </defs>
-  <rect class="cls-3" width="279" height="279" rx="12" ry="12"/>
-  <text class="cls-1" transform="translate(85.3 261.46)"><tspan x="0" y="0">Heart</tspan></text>
-  <g>
-    <path class="cls-2" d="M64.39,98.88c0-27.06,21.93-48.99,48.99-48.99s48.99,21.93,48.99,48.99-40.19,111.84-47.65,104.39c-26.2-26.2-50.33-77.33-50.33-104.39Z"/>
-    <path class="cls-2" d="M138.63,88.77c16.59-21.37,47.37-25.24,68.74-8.65,21.37,16.59,25.24,47.37,8.65,68.74-16.59,21.37-100.34,63.69-101.65,53.22-4.62-36.77,7.67-91.95,24.27-113.32Z"/>
+  <rect id="background" class="cls-4" width="279" height="279" rx="12" ry="12"/>
+  <g id="text" class="cls-2">
+    <text class="cls-1" transform="translate(16.3 261.46)"><tspan x="0" y="0">Love</tspan></text>
+  </g>
+  <g id="heart">
+    <path id="left" class="cls-3" d="M64.39,98.88c0-27.06,21.93-48.99,48.99-48.99s48.99,21.93,48.99,48.99-40.19,111.84-47.65,104.39c-26.2-26.2-50.33-77.33-50.33-104.39Z"/>
+    <path id="right" class="cls-3" d="M138.63,88.77c16.59-21.37,47.37-25.24,68.74-8.65s25.24,47.37,8.65,68.74c-16.59,21.37-100.34,63.69-101.65,53.22-4.62-36.77,7.67-91.95,24.27-113.32h0Z"/>
   </g>
 </svg>

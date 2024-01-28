@@ -18,7 +18,7 @@
 
     #water_img:hover #text .cls-3{
         fill: rgb(36, 0, 167);
-        animation: left: 20px fadeIn ease 10s;
+       animation: slideIn 10s ease;
     }
       .cls-1 {
         letter-spacing: -.04em;
