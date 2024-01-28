@@ -1,47 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.18 337.65">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #231f20;
-        font-family: ArialMT, Arial;
-        font-size: 41px;
-      }
-
-      .cls-2, .cls-3 {
-        stroke-width: 0px;
-      }
-
-      .cls-3 {
-        fill: #e5e5e5;
-      }
-    </style>
-  </defs>
-  <rect class="cls-3" x="0" y="35.18" width="279" height="279" rx="139.5" ry="139.5"/>
-  <circle class="cls-2" cx="97.38" cy="131.97" r="15.38"/>
-  <circle class="cls-2" cx="181.62" cy="131.97" r="15.38"/>
-  <path class="cls-2" d="M183.18,170.2c5.19,4.86-11.88,53.27-43.09,52.87-30.22-.39-46.97-46.19-41.77-51.22,3.72-3.59,17.49,14.84,41.77,14.75,25.1-.09,39.37-19.9,43.09-16.41Z"/>
-  <text class="cls-1" transform="translate(111.39 37.36) rotate(-5.98)"><tspan x="0" y="0">S</tspan></text>
-  <text class="cls-1" transform="translate(137.22 34.15) rotate(6.06)"><tspan x="0" y="0">m</tspan></text>
-  <text class="cls-1" transform="translate(170.03 38.49) rotate(14.59)"><tspan x="0" y="0">i</tspan></text>
-  <text class="cls-1" transform="translate(178.42 40.66) rotate(18.19)"><tspan x="0" y="0">l</tspan></text>
-  <text class="cls-1" transform="translate(186.52 42.88) rotate(24.47)"><tspan x="0" y="0">e</tspan></text>
-  <text class="cls-1" transform="translate(206.42 52.26) rotate(31.16)"><tspan x="0" y="0"> </tspan></text>
-  <text class="cls-1" transform="translate(215.7 57.79) rotate(36.03)"><tspan x="0" y="0">-</tspan></text>
-  <text class="cls-1" transform="translate(226.26 65.49) rotate(40.87)"><tspan x="0" y="0"> </tspan></text>
-  <text class="cls-1" transform="translate(234.59 71.94) rotate(48.34)"><tspan x="0" y="0">S</tspan></text>
-  <text class="cls-1" transform="translate(252.28 91.08) rotate(60.27)"><tspan x="0" y="0">m</tspan></text>
-  <text class="cls-1" transform="translate(267.95 120.23) rotate(68.75)"><tspan x="0" y="0">i</tspan></text>
-  <text class="cls-1" transform="translate(271.11 128.31) rotate(72.34)"><tspan x="0" y="0">l</tspan></text>
-  <text class="cls-1" transform="translate(274.05 136.17) rotate(78.65)"><tspan x="0" y="0">e</tspan></text>
-  <text class="cls-1" transform="translate(278.09 157.79) rotate(85.36)"><tspan x="0" y="0"> </tspan></text>
-  <text class="cls-1" transform="translate(279.32 168.32) rotate(92.07)"><tspan x="0" y="0">a</tspan></text>
-  <text class="cls-1" transform="translate(278.62 190.08) rotate(101.03)"><tspan x="0" y="0">n</tspan></text>
-  <text class="cls-1" transform="translate(274.54 211.46) rotate(110.05)"><tspan x="0" y="0">d</tspan></text>
-  <text class="cls-1" transform="translate(266.74 232) rotate(116.76)"><tspan x="0" y="0"> </tspan></text>
-  <text class="cls-1" transform="translate(262.5 241.68) rotate(124.31)"><tspan x="0" y="0">S</tspan></text>
-  <text class="cls-1" transform="translate(248.23 263.45) rotate(136.2)"><tspan x="0" y="0">m</tspan></text>
-  <text class="cls-1" transform="translate(223.74 285.77) rotate(144.57)"><tspan x="0" y="0">i</tspan></text>
-  <text class="cls-1" transform="translate(216.68 290.81) rotate(148.11)"><tspan x="0" y="0">l</tspan></text>
-  <text class="cls-1" transform="translate(209.78 295.59) rotate(154.34)"><tspan x="0" y="0">e</tspan></text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="smile_x5F_image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 314.2 337.6" style="enable-background:new 0 0 314.2 337.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E5E5E5;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:24px;}
+</style>
+<g id="background_00000138562603145100726370000002882774996618299560_">
+</g>
+<path id="circle" class="st0" d="M78,30.9L78,30.9c28.9,0,52.3,23.4,52.3,52.3l0,0c0,28.9-23.4,52.3-52.3,52.3l0,0
+	c-28.9,0-52.3-23.4-52.3-52.3l0,0C25.6,54.3,49.1,30.9,78,30.9z"/>
+<circle id="left_x5F_eye" cx="69.7" cy="67.2" r="5.8"/>
+<circle id="right_x5F_eye" cx="101.3" cy="67.2" r="5.8"/>
+<path id="smile" d="M101.9,81.6c1.9,1.8-4.5,20-16.2,19.8C74.4,101.2,68.1,84.1,70,82.2c1.4-1.3,6.6,5.6,15.7,5.5
+	C95.1,87.7,100.5,80.2,101.9,81.6L101.9,81.6z"/>
+<text id="Smile_x5F_text" transform="matrix(1 0 0 1 47.9347 181.3158)" class="st1 st2">Smile</text>
 </svg>
