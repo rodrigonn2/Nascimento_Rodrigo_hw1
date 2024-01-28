@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.18 378.9">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: #d8d6d7;
+        font-size: 41px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+        font-size: 25px;
+      }
+
+      .cls-4 {
+        fill: #d11f44;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <circle class="cls-4" cx="139.76" cy="135.18" r="92.5"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <text class="cls-3" transform="translate(19.08 22.18)"><tspan x="0" y="0">Press</tspan><tspan class="cls-1" x="63.9" y="0"> </tspan><tspan x="70.4" y="0">The Button and</tspan></text>
+    <text class="cls-2" transform="translate(51.28 278.79)"><tspan x="0" y="0">It</tspan><tspan class="cls-1" x="22.78" y="0">’</tspan><tspan x="31.15" y="0">s Friday</tspan></text>
+  </g>
+</svg>
