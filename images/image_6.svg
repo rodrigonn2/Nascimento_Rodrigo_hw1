@@ -1,43 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.18 378.9">
+<svg id="rocket_img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279.16 279">
   <defs>
     <style>
+
+    #rocket_img #rocket #rocket_3 {
+    transition: transform 0.5s ease-in-out;}
+
+    #rocket_img #rocket #rocket_2 {
+    transition: transform 0.5s ease-in-out;}
+
+     #rocket_img #rocket #rocket_1 {
+    transition: transform 0.5s ease-in-out;}
+
+
+#rocket_img:hover #rocket #rocket_1 {
+    fill: #fdb7b07;
+   transition: transform 0.5s ease-in-out;
+   transform: translateX(150px);
+
+
+}
+
+#rocket_img:hover #rocket #rocket_2 {
+    fill: #db7b07;
+   transition: transform 0.5s ease-in-out;
+   transform: translateX(150px);
+
+}
+
+#rocket_img:hover #rocket #rocket_3 {
+    fill: #fff;
+transition: transform 0.5s ease-in-out;
+   transform: translateX(150px);
+  
+
+}
       .cls-1 {
-        letter-spacing: -.06em;
+        fill: #f7f7f7;
       }
 
-      .cls-2 {
-        letter-spacing: 0em;
-      }
-
-      .cls-3 {
-        fill: #231f20;
-        font-family: ArialMT, Arial;
-        font-size: 25px;
-      }
-
-      .cls-4 {
-        fill: #f8b4c3;
-      }
-
-      .cls-4, .cls-5, .cls-6 {
+      .cls-1, .cls-2, .cls-3, .cls-4 {
         stroke-width: 0px;
       }
 
-      .cls-5 {
-        fill: #afb9de;
+      .cls-2 {
+        fill: #db7b07;
       }
 
-      .cls-6 {
-        fill: #a9b8de;
+      .cls-3 {
+        fill: #02212d;
+      }
+
+      .cls-4 {
+        fill: #fff;
       }
     </style>
+     <script>
+       console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#rocket_img');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+
+    </script>
   </defs>
-  <circle class="cls-4" cx="154.2" cy="190.62" r="96"/>
-  <circle class="cls-6" cx="154.2" cy="190.62" r="64.31"/>
-  <polygon class="cls-5" points="169.34 246.36 152.82 236.44 135.28 244.41 139.62 225.64 126.61 211.42 145.8 209.75 155.3 192.98 162.83 210.72 181.71 214.57 167.17 227.22 169.34 246.36"/>
-  <polygon class="cls-5" points="190.49 169.76 182.87 165.18 174.77 168.86 176.78 160.2 170.77 153.64 179.63 152.86 184.02 145.13 187.49 153.31 196.2 155.09 189.49 160.92 190.49 169.76"/>
-  <polygon class="cls-5" points="203.31 195.13 199.18 192.65 194.79 194.64 195.88 189.95 192.63 186.39 197.43 185.97 199.8 181.78 201.68 186.22 206.4 187.18 202.77 190.34 203.31 195.13"/>
-  <text class="cls-3" transform="translate(49.53 318.45)"><tspan x="0" y="0">The</tspan><tspan class="cls-1" x="43.08" y="0"> </tspan><tspan class="cls-2" x="48.64" y="0">American Beer</tspan></text>
-  <polygon class="cls-5" points="144.43 190.62 127.91 180.7 110.37 188.68 114.71 169.9 101.7 155.68 120.9 154.01 130.4 137.24 137.92 154.98 156.8 158.84 142.26 171.48 144.43 190.62"/>
+  <rect id="background" class="cls-3" width="279" height="279" rx="12" ry="12"/>
+  <g id="rocket">
+    <polygon class="cls-1" points="216.07 19.77 219.35 26.42 226.69 27.48 221.38 32.66 222.63 39.96 216.07 36.51 209.51 39.96 210.77 32.66 205.46 27.48 212.79 26.42 216.07 19.77"/>
+    <polygon id="rocket_3" class="cls-4" points="178.18 100.77 178.18 100.77 106.98 260.45 37.82 209.51 178.18 100.77"/>
+    <polygon id="rocket_2" class="cls-2" points="149.51 208.49 149.51 208.49 121.77 272.02 93.38 251.12 149.51 208.49"/>
+    <polygon id="rocket_1" class="cls-2" points="78.08 156 78.08 156 49.89 219.21 22.52 199.05 78.08 156"/>
+  </g>
 </svg>
