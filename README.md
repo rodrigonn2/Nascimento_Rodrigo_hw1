@@ -1,4 +1,4 @@
-# Manipulating SVG Images
+# Interactive SVG Icons
 This is the Repo for the Multimedia Authoring home work 1  - Manipulating SVG Icons
 
 
