@@ -1,36 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.18 378.9">
+<svg id="friday_image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279.16 279">
   <defs>
     <style>
+
+
+#friday_image #text .cls-4 {
+    transition: transform 0.5s ease-in-out;
+      transform: translateY(0px);
+}
+
+
+#friday_image:hover #text .cls-4{
+    fill: rgb(255, 255, 255);
+    transform: translateY(150px);
+
+  }
+
+
+
+#friday_image #circle .cls-7 {
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(150px);
+    fill: #fff;
+}
+
+
+#friday_image:hover #circle .cls-7 {
+    fill: #010e68;
+    transform: translateY(20px);
+
+  }
+
+ #friday_image #background-2 {
+    fill: #cef2e7;
+
+  }
+
+  #friday_image:hover #background-2 {
+    fill: #06f9b4;
+
+  }
+
+
+
+#friday_image #text .cls-5{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(250px);
+
+}
+
+
+#friday_image:hover #text .cls-5{
+    fill: rgb(255, 255, 255);
+    transform: translateY(-10px);
+
+  }
+
+
+
       .cls-1 {
         letter-spacing: -.02em;
       }
 
       .cls-2 {
-        fill: #d8d6d7;
-        font-size: 41px;
-      }
-
-      .cls-2, .cls-3 {
-        font-family: ArialMT, Arial;
+        letter-spacing: -.02em;
       }
 
       .cls-3 {
-        fill: #231f20;
-        font-size: 25px;
+        letter-spacing: -.07em;
       }
 
       .cls-4 {
+        font-size: 39.35px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #c1e6f4;
+      }
+
+      .cls-5 {
+        font-size: 17.29px;
+      }
+
+      .cls-7 {
         fill: #d11f44;
+      }
+
+      .cls-7, .cls-6 {
         stroke-width: 0px;
       }
     </style>
+     <script>
+       console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#friday_image');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+
+    </script>
   </defs>
-  <g id="Layer_1" data-name="Layer 1">
-    <circle class="cls-4" cx="139.76" cy="135.18" r="92.5"/>
+  <g id="background">
+    <rect id="background-2" data-name="background" class="cls-6" x=".16" width="279" height="279" rx="12" ry="12"/>
   </g>
-  <g id="Layer_5" data-name="Layer 5">
-    <text class="cls-3" transform="translate(19.08 22.18)"><tspan x="0" y="0">Press</tspan><tspan class="cls-1" x="63.9" y="0"> </tspan><tspan x="70.4" y="0">The Button and</tspan></text>
-    <text class="cls-2" transform="translate(51.28 278.79)"><tspan x="0" y="0">It</tspan><tspan class="cls-1" x="22.78" y="0">’</tspan><tspan x="31.15" y="0">s Friday</tspan></text>
+  <g id="circle">
+    <circle class="cls-7" cx="138.42" cy="127.15" r="75.83"/>
+  </g>
+  <g id="text">
+    <text class="cls-5" transform="translate(49.52 36.65)"><tspan x="0" y="0">Hover to see the magic</tspan></text>
+    <text class="cls-4" transform="translate(33.24 256.41)"><tspan x="0" y="0">It</tspan><tspan class="cls-1" x="21.87" y="0">’</tspan><tspan x="29.9" y="0" xml:space="preserve">s  FRID</tspan><tspan class="cls-3" x="163.24" y="0">A</tspan><tspan class="cls-2" x="186.57" y="0">Y</tspan></text>
   </g>
 </svg>
